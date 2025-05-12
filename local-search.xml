@@ -8,9 +8,15 @@
     <link href="/2025/05/12/Devlog-0512/"/>
     <url>/2025/05/12/Devlog-0512/</url>
     
-    <content type="html"><![CDATA[]]></content>
+    <content type="html"><![CDATA[<h2 id="⏱️-今日工时"><a href="#⏱️-今日工时" class="headerlink" title="⏱️ 今日工时"></a>⏱️ 今日工时</h2><ul><li>13:30‑17:00 设计实验及复盘</li></ul><hr><h2 id="⚙️-实验目的及设计"><a href="#⚙️-实验目的及设计" class="headerlink" title="⚙️ 实验目的及设计"></a>⚙️ 实验目的及设计</h2><p>衡量单次碎裂产生的峰重要性</p><h3 id="1-实验一"><a href="#1-实验一" class="headerlink" title="1. 实验一"></a>1. 实验一</h3><ul><li>在实验谱中去除掉DeepGP预测的峰；</li><li>在实验谱中仅保留DeepGP预测的峰；</li><li><del>在实验谱中去除 DeepGP 预测峰中强度排名前 10 的峰（pglyco可以正确鉴定到其结构）</del></li><li>使用pglyco分别对上述两种情况进行鉴定， 观察鉴定情况。</li></ul><h4 id="预实验"><a href="#预实验" class="headerlink" title="预实验"></a>预实验</h4><p>随机挑选了两个数据进行上述测试，发现去除掉DeepGP预测的峰，pglyco鉴定不出实验谱对应的结构；同时仅保留DeepGP预测的峰，pglyco同样鉴定不出实验谱对应的结构。<br>猜测的结论：单次碎裂峰不足以满足鉴定，其余的峰同样有信息量。</p><h4 id="系统实验"><a href="#系统实验" class="headerlink" title="系统实验"></a>系统实验</h4><p>在所有谱图数据上开展上述预实验，以验证初步猜想的普遍性和有效性。</p><hr><h2 id="🐛-问题-解决"><a href="#🐛-问题-解决" class="headerlink" title="🐛 问题 &amp; 解决"></a>🐛 问题 &amp; 解决</h2><ol><li>pglyco无法很好的处理raw以外的质谱数据。暂时没有很好的解决办法，不影响后续pglyco的鉴定结果。</li></ol><hr><h2 id="📋-TODO-明日"><a href="#📋-TODO-明日" class="headerlink" title="📋 TODO (明日)"></a>📋 TODO (明日)</h2><ul><li><input disabled="" type="checkbox"> 做完系统实验</li></ul>]]></content>
     
     
+    
+    <tags>
+      
+      <tag>糖肽质谱生成</tag>
+      
+    </tags>
     
   </entry>
   
